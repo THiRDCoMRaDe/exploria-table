@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
-<template>Hi Universe!</template>
+<template>
+  <div class="u-container">s</div>
+</template>
 
 <style></style>

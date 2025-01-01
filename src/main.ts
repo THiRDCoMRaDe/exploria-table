@@ -1,3 +1,4 @@
+import './assets/styles/utilities.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 
