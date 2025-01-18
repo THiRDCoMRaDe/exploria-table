@@ -1336,7 +1336,6 @@ onMounted(() => {
   </main>
 </template>
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
-<style src="vue-virtual-scroller/dist/vue-virtual-scroller.css"></style>
 <style scoped>
 main.ht-wrapper {
   display: flex;

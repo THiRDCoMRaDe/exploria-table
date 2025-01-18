@@ -32,7 +32,6 @@ const { TableComponent } = useTable<MockDataInterface>(
         resizable: true,
         width: 200,
         minWidth: 250,
-        maxWidth: 300,
         comparator: ({ valueA, valueB, reverse }) => {
           const collator = new Intl.Collator('en', { numeric: true, sensitivity: 'base' })
           return reverse ? collator.compare(valueB, valueA) : collator.compare(valueA, valueB)
@@ -92,8 +91,8 @@ const { TableComponent } = useTable<MockDataInterface>(
         },
       },
     ],
-    paginationPageSizeSelector: [75, 97, 123],
-    // paginationPageSizeSelector: [75],
+    paginationPageSizeSelector: [30, 50, 75],
+    // paginationPageSizeSelector: [25],
     pagination: true,
     paginationStrategyOnPageSizeChange: 'keepFirstRowOfPreviousPageSizeInViewport',
     syncTableState: 'queryParam',
