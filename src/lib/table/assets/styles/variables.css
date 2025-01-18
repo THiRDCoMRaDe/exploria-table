@@ -1,0 +1,171 @@
+:root {
+  /* global */
+  --ht-border-color: #cfd0cb;
+  --ht-font-family: 'Rubik';
+  --ht-font-size: 12px;
+  --ht-font-weight: 400;
+  --ht-text-color: #434442;
+
+  --ht-spacing: 8px;
+  --ht-icon-size: 16px;
+  --ht-accent-color: #96e000;
+  --ht-accent-color-rgb: 150, 224, 0;
+
+  --ht-popup-shadow: 0 0 12px 0 rgba(19, 23, 22, 0.15);
+
+  --ht-wrapper-border: 1px solid var(--ht-border-color);
+  --ht-wrapper-border-radius: 8px;
+
+  /* header */
+  --ht-header-bg-color: #e6e8e2;
+  --ht-header-border-color: var(--ht-border-color);
+  --ht-header-font-family: var(--ht-font-family);
+  --ht-header-font-size: var(--ht-font-size);
+  --ht-header-font-weight: 500;
+  --ht-header-text-color: var(--ht-text-color);
+
+  --ht-header-column-resize-handle-color: var(--ht-border-color);
+  --ht-header-column-resize-handle-height: 30%;
+  --ht-header-column-resize-handle-width: 2px;
+  --ht-header-column-sort-icon-width: var(--ht-icon-size);
+  --ht-header-column-sort-icon-height: var(--ht-icon-size);
+
+  --ht-header-cell-horizontal-padding: calc(var(--ht-spacing) * 1.5);
+
+  /* header column filter */
+  --ht-header-column-filter-button-width: calc(var(--ht-icon-size) + 8px);
+  --ht-header-column-filter-button-height: calc(var(--ht-icon-size) + 8px);
+  --ht-header-column-filter-icon-width: var(--ht-icon-size);
+  --ht-header-column-filter-icon-height: var(--ht-icon-size);
+
+  --ht-header-column-filter-button-hover-bg-color: #f5f6f3;
+  --ht-header-column-filter-open-modal-button-bg-color: #f5f6f3;
+
+  /* header column filter modal */
+  --ht-header-column-filter-modal-shadow: var(--ht-popup-shadow);
+  --ht-header-column-filter-modal-border-color: var(--ht-border-color);
+  --ht-header-column-filter-modal-bg-color: #eeefeb;
+  --ht-header-column-filter-modal-padding: calc(var(--ht-spacing) * 1.5);
+
+  /* footer */
+  --ht-footer-bg-color: #cfd1cb;
+  --ht-footer-border-color: #b8bab5;
+  --ht-footer-horizontal-padding: calc(var(--ht-spacing) * 1.5);
+
+  /* pagination */
+  --ht-pagination-font-family: var(--ht-font-family);
+  --ht-pagination-font-size: var(--ht-font-size);
+  --ht-pagination-font-weight: 400;
+  --ht-pagination-label-font-weight: 500;
+  --ht-pagination-text-color: var(--ht-text-color);
+  --ht-pagination-panel-button-width: 20px;
+  --ht-pagination-panel-button-height: 20px;
+  --ht-pagination-panel-button-color: #696968;
+  --ht-pagination-panel-button-disabled-color: #a1a2a1;
+
+  /* body rows */
+  --ht-body-row-border-color: var(--ht-border-color);
+  --ht-body-row-odd-bg-color: #f8f8f6;
+  --ht-body-row-even-bg-color: #f3f4f1;
+  --ht-body-row-hover-bg-color: rgba(var(--ht-accent-color-rgb), 0.15);
+  --ht-body-row-font-family: var(--ht-font-family);
+  --ht-body-row-font-size: var(--ht-font-size);
+  --ht-body-row-font-weight: 400;
+  --ht-body-row-text-color: var(--ht-text-color);
+  --ht-body-cell-horizontal-padding: var(--ht-header-cell-horizontal-padding);
+
+  /* input */
+  --ht-input-border-radius: 4px;
+  --ht-input-bg-color: #f8f8f8;
+  --ht-input-border-color: #dfdfdf;
+  --ht-input-text-color: #565755;
+  --ht-input-placeholder-color: #b4b4b3;
+  --ht-input-font-size: var(--ht-font-size);
+  --ht-input-font-weight: 500;
+  --ht-input-horizontal-padding: calc(var(--ht-spacing) * 1.25);
+  --ht-input-vertical-padding: calc(var(--ht-spacing) * 0.75);
+  --ht-input-focus-shadow: 0 0 2px 3px rgba(var(--ht-accent-color-rgb), 0.5);
+
+  /* filter input */
+  --ht-filter-input-border-radius: var(--ht-input-border-radius);
+  --ht-filter-input-bg-color: var(--ht-input-bg-color);
+  --ht-filter-input-border-color: var(--ht-input-border-color);
+  --ht-filter-input-font-family: var(--ht-font-family);
+  --ht-filter-input-text-color: var(--ht-input-text-color);
+  --ht-filter-input-placeholder-color: var(--ht-input-placeholder-color);
+  --ht-filter-input-font-size: var(--ht-input-font-size);
+  --ht-filter-input-font-weight: var(--ht-input-font-weight);
+  --ht-filter-input-text-horizontal-padding: var(--ht-input-horizontal-padding);
+  --ht-filter-input-text-vertical-padding: var(--ht-input-vertical-padding);
+  --ht-filter-input-text-focus-shadow: var(--ht-input-focus-shadow);
+
+  /* input select */
+  --ht-input-select-arrow-icon-width: 28px;
+  --ht-input-select-arrow-icon-height: 26px;
+  --ht-input-select-arrow-icon-border-width: 6px 4px 0;
+  --ht-input-select-arrow-icon-bg-color: #a1a2a1;
+  --ht-input-select-line-height: 14px;
+  --ht-input-select-font-family: var(--ht-font-family);
+  --ht-input-select-options-position: 32px;
+  --ht-input-select-option-selected-bg-color: rgba(var(--ht-accent-color-rgb), 0.5);
+  --ht-input-select-option-selected-color: #2f302e;
+  --ht-input-select-option-highlight-bg-color: #eeefeb;
+  --ht-input-select-option-highlight-color: inherit;
+  --ht-input-select-open-shadow: 0 0 2px 3px rgba(var(--ht-accent-color-rgb), 0.5);
+
+  /* filter input select */
+  --ht-filter-input-select-border-radius: var(--ht-input-border-radius);
+  --ht-filter-input-select-bg-color: var(--ht-input-bg-color);
+  --ht-filter-input-select-border-color: var(--ht-input-border-color);
+  --ht-filter-input-select-font-family: var(--ht-input-select-font-family);
+  --ht-filter-input-select-color: var(--ht-input-text-color);
+  --ht-filter-input-select-font-size: var(--ht-input-font-size);
+  --ht-filter-input-select-font-weight: var(--ht-input-font-weight);
+  --ht-filter-input-select-line-height: var(--ht-input-select-line-height);
+  --ht-filter-input-select-arrow-icon-width: var(--ht-input-select-arrow-icon-width);
+  --ht-filter-input-select-arrow-icon-height: var(--ht-input-select-arrow-icon-height);
+  --ht-filter-input-select-arrow-icon-border-width: var(--ht-input-select-arrow-icon-border-width);
+  --ht-filter-input-select-arrow-icon-bg-color: var(--ht-input-select-arrow-icon-bg-color);
+  --ht-filter-input-select-horizontal-padding: var(--ht-input-horizontal-padding);
+  --ht-filter-input-select-vertical-padding: var(--ht-input-vertical-padding);
+  --ht-filter-input-select-options-position: var(--ht-input-select-options-position);
+  --ht-filter-input-select-option-selected-bg-color: var(
+    --ht-input-select-option-selected-bg-color
+  );
+  --ht-filter-input-select-option-selected-color: var(--ht-input-select-option-selected-color);
+  --ht-filter-input-select-option-highlight-bg-color: var(
+    --ht-input-select-option-highlight-bg-color
+  );
+  --ht-filter-input-select-option-highlight-color: var(--ht-input-select-option-highlight-color);
+  --ht-filter-input-select-open-shadow: var(--ht-input-select-open-shadow);
+
+  /* pagination input select  */
+  --ht-pagination-input-select-border-radius: var(--ht-input-border-radius);
+  --ht-pagination-input-select-bg-color: var(--ht-input-bg-color);
+  --ht-pagination-input-select-border-color: var(--ht-input-border-color);
+  --ht-pagination-input-select-font-family: var(--ht-input-select-font-family);
+  --ht-pagination-input-select-color: var(--ht-input-text-color);
+  --ht-pagination-input-select-font-size: var(--ht-input-font-size);
+  --ht-pagination-input-select-font-weight: var(--ht-input-font-weight);
+  --ht-pagination-input-select-line-height: var(--ht-input-select-line-height);
+  --ht-pagination-input-select-arrow-icon-width: var(--ht-input-select-arrow-icon-width);
+  --ht-pagination-input-select-arrow-icon-height: var(--ht-input-select-arrow-icon-height);
+  --ht-pagination-input-select-arrow-icon-border-width: var(
+    --ht-input-select-arrow-icon-border-width
+  );
+  --ht-pagination-input-select-arrow-icon-bg-color: var(--ht-input-select-arrow-icon-bg-color);
+  --ht-pagination-input-select-horizontal-padding: var(--ht-input-horizontal-padding);
+  --ht-pagination-input-select-vertical-padding: var(--ht-input-vertical-padding);
+  --ht-pagination-input-select-options-position: var(--ht-input-select-options-position);
+  --ht-pagination-input-select-option-selected-bg-color: var(
+    --ht-input-select-option-selected-bg-color
+  );
+  --ht-pagination-input-select-option-selected-color: var(--ht-input-select-option-selected-color);
+  --ht-pagination-input-select-option-highlight-bg-color: var(
+    --ht-input-select-option-highlight-bg-color
+  );
+  --ht-pagination-input-select-option-highlight-color: var(
+    --ht-input-select-option-highlight-color
+  );
+  --ht-pagination-input-select-open-shadow: var(--ht-input-select-open-shadow);
+}

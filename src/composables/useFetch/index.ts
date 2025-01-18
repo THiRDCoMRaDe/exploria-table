@@ -5,7 +5,7 @@ import type { maybeNull } from '@/_core'
 
 export function useFetch<T>(
   url: UrlType,
-  option?: UseFetchOptionInterface,
+  option: UseFetchOptionInterface,
 ): UseFetchResInterface<T> {
   const data: Ref<maybeNull<T>> = ref(null)
   const error: Ref<unknown> = ref(null)

@@ -1,7 +1,7 @@
 export interface MockDataInterface {
-  id: string
+  id: number
   name: string
-  date: Date
+  date: string
   address: string
   phone: string
 }
